@@ -62,10 +62,6 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`customer_id`, `customer_nama`, `customer_email`, `customer_hp`, `customer_alamat`, `customer_password`) VALUES
-(3, 'Ahmad Jhony', 'jhony@gmail.com', '0927883733', 'jala sdjasl', '91ec1f9324753048c0096d036a694f86'),
-(5, 'Jamaika Bob', 'jamaika@gmail.com', '08262122771', 'jalan rasta uye nomor 1', '91ec1f9324753048c0096d036a694f86'),
-(6, 'Rosalina', 'rosalina@gmail.com', '082827287', 'jalan meruakaja', '91ec1f9324753048c0096d036a694f86'),
-(7, 'suleha alala', 'suleha@gmail.com', '982737383737', 'sasdkajndkasjdn', 'ae2831cce9ac4de6a703a728f26cc07b'),
 (8, 'IHYA NATIK WIBOWO', 'ihyanatikwibowo@gmail.com', '0815880631562', 'Jl. sukajadi 2', '7142293118beb4ced6d421af32c4bbfa');
 
 -- --------------------------------------------------------
@@ -97,11 +93,7 @@ CREATE TABLE `invoice` (
 --
 
 INSERT INTO `invoice` (`invoice_id`, `invoice_tanggal`, `invoice_customer`, `invoice_nama`, `invoice_hp`, `invoice_alamat`, `invoice_provinsi`, `invoice_kabupaten`, `invoice_kurir`, `invoice_berat`, `invoice_ongkir`, `invoice_total_bayar`, `invoice_status`, `invoice_resi`, `invoice_bukti`) VALUES
-(5, '2019-06-13', 5, 'Jamaika / Ibu ida', '9828272723', 'JL. makmur no.17 , rumahw arna putih', '1', '1', 'JNE', 300, 24000, 960000, 0, '', ''),
-(6, '2019-06-13', 5, 'Jamaika Bob', '08272263637', 'Jalan Pentolan Nomor 1C, Rasta mania', 'Maluku', 'Maluku Tenggara', 'JNE - OKE', 300, 108000, 808500, 3, '', '577813088.jpg'),
-(7, '2019-06-14', 6, 'Rosalina / Ibu Ros', '08282723833', 'jalan mewawaw nomor 34 A. Komplek Pertamburan,', 'Kalimantan Utara', 'Nunukan', 'Pos Indonesia - Paket Kilat Khusus', 200, 71500, 351500, 5, '', '2001382847.jpg'),
-(8, '2019-07-25', 7, 'Suleha', '0897273737383', 'jalan merpati putih nomor 21, surabaya', 'Banten', 'Pandeglang', 'Pos Indonesia - Paket Kilat Khusus', 200, 13000, 353000, 5, '', '1048853755.jpg'),
-(9, '2019-11-04', 8, 'IHYA NATIK WIBOWO', '085880631566','JL.SUKAJADI', 'Ciamis', 'Banjar', 'JNE - OKE', 100, 8000, 88000, 3, '', '');
+(9, '2023-11-04', 8, 'IHYA NATIK WIBOWO', '085880631566','JL.SUKAJADI', 'Ciamis', 'Banjar', 'JNE - OKE', 100, 8000, 88000, 3, '', '');
 
 -- --------------------------------------------------------
 
